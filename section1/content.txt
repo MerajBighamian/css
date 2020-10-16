@@ -1,0 +1,63 @@
+css = cascading style sheets
+
+type of css styling : 
+
+1. inline style ==>  <div style:'color : red;'></div>
+
+2. internal style ==> 
+
+<style>
+    p{
+        color : red;
+    }
+</style>
+
+3.external style == > <link rel="stylesheet" href="css file address"
+
+---------------------------------
+Import css
+
+syntax : @import 'css file address'; ==> write this code in css code
+
+---------------------------------
+css syntax :
+
+selector{
+    property:value; ===> to all this code say : declaration    
+}
+
+and to all top code say rule in css
+
+example : 
+
+        p{
+            background-color: green;
+        }
+
+----------------------------------------------
+
+importance in css:
+
+1 . style author 
+2 . style user 
+3 . style user agent
+
+importance in css styling :
+
+1 . inline css
+
+2 . internal css
+
+3 . external css
+
+-----------------------------------------
+
+specificity in css:
+
+1 . inline style
+
+2 . id style (#id{})
+
+3 . other styling
+
+-----------------------------------------

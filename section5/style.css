@@ -1,0 +1,39 @@
+/* psudo element */
+
+ul>li::before{
+    content: 'this is a : ';
+    color: red;
+}
+
+ul li::after{
+    content: ' is end . ';
+    color: green;
+}
+
+mb::before{
+    content: '\0022  ';
+}
+
+mb::after{
+    content: '  \0022';
+}
+mb{
+    color: green;
+    font-weight: bolder;
+    margin-left: 2em;
+    display: block;
+}
+
+ul li::first-letter{
+    color: blue;
+    text-transform: capitalize;
+}
+
+li::first-line{
+    background-color: seagreen;
+}
+
+mb::selection{
+    background-color: yellow;
+    color: black;
+}

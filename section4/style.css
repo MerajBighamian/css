@@ -1,0 +1,78 @@
+/* pseudo class */
+
+/* ul :link{
+    color: red;
+} */
+
+/* *:visited{
+    color: green;
+} */
+
+.link:target{
+    text-shadow: 
+     3px 0px 3px green,
+    -3px 0px 3px green,
+     6px 0px 6px green,
+    -6px 0px 6px green; 
+}
+
+input:focus{
+    
+    background-color: greenyellow;
+    width: 400px;
+    height: 300px;
+} 
+
+a:hover{
+    color: red;
+    background-color: midnightblue;
+}
+
+:active{
+    color: gray;
+    background-color: rgb(4, 255, 255);
+}
+
+
+:enabled{
+    background-color: maroon;
+    border: 20px solid red;
+}
+
+:disabled{
+    background-color: rgb(4, 255, 255);
+    text-decoration: none;
+}
+ input[type="checkbox"]:checked{
+    background-color: olive;
+    border: 10px solid red;
+    width: 100px;
+    height: 200px;
+}
+
+input:required::after{
+    content: 'this is required';
+    background-color: green;
+    
+}
+
+ul li:first-child{
+    color: saddlebrown;
+    background-color: seagreen;
+}
+
+ul li:last-child{
+    background-color: rgb(83, 237, 5);
+}
+
+ul li:nth-child(even){
+    background-color: tomato;
+}
+
+a{
+    background-color: white;
+}
+
+:not(a){
+    background-color: yellow;
+}

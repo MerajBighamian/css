@@ -1,0 +1,22 @@
+@import 'style2.css';
+div{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+/* importance  */
+
+
+/* specificity */
+
+
+h1{
+    color: blue;
+}
+/* #paragraph{
+    color: rosybrown;
+} */
+p{
+    color: darkblue;
+}

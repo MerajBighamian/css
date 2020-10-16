@@ -1,0 +1,89 @@
+/* universal selector
+*{
+    color: red;
+    font-size: 25pt;
+}
+
+/* type selector */
+/* h1{
+    color: green;
+} */
+
+/* class selector */
+/* .header{
+    background-color: yellow;
+} */
+
+/* id selector */
+/* #body{
+    background-color: turquoise;
+} */
+
+/* group selector */
+/* p,#body,.header{
+    color: blue;
+} */
+
+/* .public_class{
+    display: none;
+}
+
+/* descendant selector */
+/*
+p a{
+    color: violet;
+    text-decoration: none;
+} */
+
+/* child selector */
+/* body>p>a{
+    color: yellow;
+} */
+
+/* adjacent sibling selector */
+/* p+div{
+    color: darkred;
+} */
+
+/* general sibling selector */
+/* #body~p,a{
+    background-color: darkblue;
+} */ 
+
+/* attribute selector : */
+
+/* start with : */
+
+/* p[id^='b']{
+    color: darkseagreen;
+}
+
+/* end with : */
+/*
+*[class$='r']{
+    color: yellow;
+} */
+
+/* countins with : */
+/* *[class*='cl2']{
+    color: blue;
+} */
+
+/* multi values with : */
+/* div[class~='header']{
+    color: violet;
+} */
+
+/* dash in value
+div[class|='fa']{
+    color: yellowgreen;
+} */
+
+/* combine attribute */
+div.header{
+    color: royalblue;
+}
+
+div[class='header']>p{
+    color: darkgoldenrod;
+}
