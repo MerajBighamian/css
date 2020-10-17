@@ -40,14 +40,42 @@ h1{
     height: 20pc;
 }
 
-div{
-    background-color: red;
-    height: 100px;
-    width: 200px;
-}
+
 
 /* relative units => em,rem,vw,vh,% */
 
+/* % */
 h1{
     width: 50%;
 }
+
+/* relative length depending on font */
+
+/* problem */
+#first{
+    display: inline;
+    font-size: 20pt;
+    /* 1em = 20pt */
+    background: royalblue;
+    padding: 30px;
+}
+
+#second{
+    display: inline;
+    font-size: 1em; /*1em = 16px*/
+    /* 1em = 50pt */
+    background-color: seagreen;
+    padding: 30px;
+}
+
+/* -------------------------------------- */
+/* 1em = font-size element */
+
+#first{
+    padding: 1em;/* 20pt*/
+}
+
+#second{
+    padding: 2em;/* 2 * 16px */
+}
+
