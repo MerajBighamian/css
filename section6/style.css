@@ -1,3 +1,53 @@
 /* css units */
 
 /* absolute unist : pc=> picas,px=> pixel,pt=> point,cm=>cantimetr,in=>inch,mm=>milimetr */
+/* height => |  and width => -- */
+
+/* pixle unit => px*/
+h1{
+    width : 400px;
+    height: 200px;
+    background-color: sienna;
+}
+
+/* centimetre => cm */
+h1{
+    width: 100cm;
+    height: 20cm;
+}
+
+/* milimeter => mm */
+h1{
+    width: 100mm;
+    height: 20mm;
+}
+
+/* inch => in */
+h1{
+    width: 100in;
+    height: 20in;
+}
+
+/* point => pt */
+h1{
+    width: 100pt;
+    height: 20pt;
+}
+
+/* pica => pc */
+h1{
+    width: 100pc;
+    height: 20pc;
+}
+
+div{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+}
+
+/* relative units => em,rem,vw,vh,% */
+
+h1{
+    width: 50%;
+}
