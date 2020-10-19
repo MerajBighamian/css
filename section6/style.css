@@ -89,4 +89,52 @@ h1{
 
 #second{
     padding: 2rem;/* 2 * 16px */
+    color: red;
+}
+
+/* -------------------------------------- */
+/* relative length depending view port */
+
+
+/* vw => viewport width  */
+/* vh => viewport height */
+p{
+    background-color: gray;
+    width: 50vw;
+    height: 50vh;
+}
+
+.diff{
+    background-color: green;
+    width: 500px;
+    height: 700px;
+    color: white;
+}
+
+h1{
+    width: 50%;
+}
+
+.paragraph{
+    background-color: greenyellow;
+    width: 800px;
+    height: 500px;
+}
+
+
+/* -------------------------------------- */
+/* Inheritance in css */
+
+/* inherit */
+
+button{
+    color: inherit;
+    background-color: inherit;
+
+}
+
+/* initial */
+
+h1{
+    color: initial;
 }
