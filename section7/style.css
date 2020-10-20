@@ -35,7 +35,22 @@ p.color3{
 }
 
 /* rgba color  => red vlue green alpha color */
+/* alpha is for define opacity */
 
 p.color4{
     background-color: rgba(255, 0, 0, 0.3);
 }
+
+/* hsl color => hue saturation lightness color */
+
+p.color5{
+    background-color: hsl(260, 90%, 50%) ;
+}
+
+/* hsla color => hue saturation lightness color alpha */
+/* alpha is for define opacity */
+
+p.color6{
+    background-color: hsla(270, 50%, 50%, 0.7);
+}
+
