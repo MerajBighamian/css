@@ -54,3 +54,11 @@ p.color6{
     background-color: hsla(270, 50%, 50%, 0.7);
 }
 
+/* hex color mode */
+/* hex decimal => #001122  sample #ffffff*/
+/* 8bit for red and 8bit for green and 8bit for blue*/
+
+p.color7{
+    color: #224a80;
+    background-color: #25bc32 ;
+}
