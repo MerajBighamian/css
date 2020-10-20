@@ -1,0 +1,30 @@
+/* colors in css */
+
+/* colors name  */
+
+p.color1{
+    color: green; /* color name */
+}
+
+/* keywords transparent */
+
+p.color2{
+    color: transparent;
+    background-image: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+}
+
+
+button{
+    background-color: transparent;
+}
+
+/* keywords currentColor */
+
+div{
+    color: blue;
+    background-color: currentColor;
+    border-color: currentColor;
+}
+
+
