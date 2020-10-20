@@ -27,4 +27,15 @@ div{
     border-color: currentColor;
 }
 
+/* rgb color  => red vlue green color */
 
+p.color3{
+    color: rgb(255,255,255);
+    background-color: rgb(0, 51, 0);
+}
+
+/* rgba color  => red vlue green alpha color */
+
+p.color4{
+    background-color: rgba(255, 0, 0, 0.3);
+}
