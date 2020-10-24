@@ -1,0 +1,75 @@
+/* text formatting ==> property of change display texts */
+
+/* direction property of change text direction   */
+/* *{
+    direction: rtl;
+} */
+
+div.text1{
+    direction: rtl;
+    color: red;
+}
+
+/* ############################################################################### */
+
+/* text-align ==> defining align of text | defaulte value == left |  | Inheritance is like color property */
+
+/* justify */
+div.text2{
+    text-align: justify;
+}
+
+/* start  ==> depending on direction | example => direction==left  so ==> text-align:start == text-align : left*/
+div.text3{
+    text-align: start;
+}
+
+/* end  ==> depending on direction | example => direction==left  so ==> text-align:end == text-align : right*/
+div.text3{
+    text-align: end;
+    background-color: royalblue;
+}
+
+/* ############################################################################### */
+
+/* text-decoration  ==> The appearance of the text */
+
+/* underline ==> uderline for text */
+div.text4{
+    text-decoration: underline;
+}
+
+/* overline ==> overline for text */
+div.text5{
+    text-decoration: overline;
+    direction: rtl;
+}
+
+/* none ==> none line */
+a{
+    text-decoration: none;
+}
+
+/* line-through ==> line-through for text  */
+div.text6{
+    text-decoration: line-through;
+    background-color: salmon;
+}
+
+/* multi value of text-decoration */
+div.text7{
+    text-decoration: line-through overline underline;
+}
+
+/* text-decoration in css3 */
+div.text8{
+    text-decoration: underline overline;
+    text-decoration-color: red; /* define text decoration color */
+    text-decoration-style: double; /* define text decoration line type (solid|dotted|dashed|double) */
+}
+
+
+/* Shorthand of text-decoration  */
+div.text9{
+    text-decoration: underline dotted green;
+}
