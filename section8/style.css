@@ -73,3 +73,104 @@ div.text8{
 div.text9{
     text-decoration: underline dotted green;
 }
+
+/* ############################################################################### */
+
+/* text-indent ==> indention of text */
+
+div.text10{
+    text-indent: 1em; /* use em unit */
+    background-color: darkgoldenrod;
+}
+
+/* ############################################################################### */
+
+/* text-transform ==> specify text is captalize or smallize */
+
+/* captalize value */
+div.text11{
+    text-transform: capitalize;
+}
+
+/* lowercase value */
+div.text12{
+    text-transform: lowercase;
+}
+
+/* uppercase value */
+div.text13{
+    text-transform: uppercase;
+}
+
+/* none value */
+div.text14{
+    text-transform: none;
+}
+
+/* ############################################################################### */
+/* letter-spacing ==> for Specify the space between each letter */
+
+/* normal value */
+div.text15{
+    letter-spacing: normal;
+}
+
+/* customize value */
+div.text16{
+    letter-spacing: 1em;
+}
+
+/* ############################################################################### */
+/* word-spacing ==> for Specify the space between each word | the effect of inline element (increase or decrase space between each inline element) */
+
+/* normal value */
+div.text17{
+    word-spacing: normal;
+}
+
+/* customize value */
+div.text18{
+    word-spacing: 1em;
+}
+
+
+/* ############################################################################### */
+
+/* white-space ==> specify the white space ' ' in text | white space == empty space*/
+/* Spaces in html apply only one of them */
+
+/* normal value */
+div.text19{
+    white-space: normal;
+}
+
+/* pre value ==> It has the same function as the <pre></pre> tag*/
+div.text19{
+    background-color: darkgreen;
+    white-space: pre;
+}
+
+/* nowrap value ==> disable word wrap ==> Do not go to the next line when the place is finished */
+div.text20{
+    background-color: darkorange;
+    white-space: nowrap;
+    width: 10vw;
+    height: 4vh;
+}
+
+/* pre-wrap value ==>  enable word wrap and It has the same function as the <pre></pre> tag */
+div.text21{
+    background-color: red;
+    white-space: pre-wrap;
+    width: 10vw;
+    height: 12vh;
+}
+
+/* pre-line value ==> show breaj line like pre tag and enable word wrap like normal value but not show space more than one */
+div.text22{
+    background-color: darkturquoise;
+    white-space: pre-line;
+    width: 10vw;
+    height: 15vh;
+}
+
